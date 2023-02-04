@@ -1,0 +1,170 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+#title{
+
+    background-color: #ff4c68;
+}
+
+.nav_elements{
+    width: 100%;
+    display: flex;
+  justify-content: flex-end;
+}
+
+.main_heading{
+    font-size: 3rem;
+    line-height: 1.3;
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.fluid-containers{
+    padding: 3% 15% 11%;
+}
+
+ .iphone_img{
+   width: 25%;
+   transform: rotate(25deg);
+   position: absolute;
+   left: 50%;
+   
+ }
+
+ .tin{
+    font-weight: bold;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 2.5rem;
+ }
+ .navbar{
+    padding-bottom: 4.5rem;
+ }
+.nav-item{
+    padding: 0 18px;
+}
+ .nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light',sans-serif;
+
+ }
+ #footer{
+   text-align: center;
+   padding: 3% 0 3% 0;
+ }
+
+ #features{
+    padding:10% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+
+ }
+
+ .features_box{
+    text-align: center;
+ }
+ .features_icon{
+    color: #ef8172;
+    margin: 10px;
+ }
+ .features_icon:hover{
+    color: #ff4c68;
+ }
+
+ h3{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+ }
+ p{
+    color:#8f8f8f
+ }
+
+ #testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    /* padding:7% 15%; */
+ }
+
+ .carousel-item{
+    padding:7% 15%;
+ }
+
+ h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+ }
+
+ .testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+ }
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom:5% ;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px;
+}
+
+.pricing_buttons{
+   width: 100%;   
+
+}
+
+.pricing_card{
+   margin: 5px 5px;
+}
+
+#pricing{
+   padding: 100px;
+   text-align: center;
+}
+
+@media   (max-width:997px){
+ .iphone_img{
+   transform:translate(0);
+   position: static   ;
+   margin-top:20px ;
+   width: 50%;
+   }
+   .main_heading{
+      text-align: center;
+   }
+   #features{
+      position: static;
+   }
+   .title_div{
+      text-align: center;
+   }
+}
+
+#cta{
+   background-color: #ff4c68;
+   padding: 7% 15%;
+   text-align: center;
+}
+.cta_heading{
+   /* padding: 7% 15% */
+   font-size: 3rem;
+   line-height: 1.5;
+   font-family: 'Montserrat',sans-serif;
+   font-weight: bold;
+   color: #fff;
+}
+
+.logos{
+   margin: 10px 10px;
+}
+.logo{
+   margin:0 5px ;
+}
